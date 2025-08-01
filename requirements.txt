@@ -1,0 +1,12 @@
+beautifulsoup4
+numpy
+scipy
+scikit-learn
+xgboost
+pandas
+spacy
+nltk
+requests
+joblib
+imbalanced-learn
+pyenchant
