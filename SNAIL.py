@@ -125,7 +125,7 @@ for idx, pattern in enumerate(patterns):
 print(f"Total matcher rules: {len(matcher)}")
 
 # Load BMC regex dictionary
-bmc_dict_file = "linnaeus.regex.dic.BMCPaper.tsv"
+bmc_dict_file = "dbsoftDB.tsv"
 
 def parse_regex_pattern(raw_pattern):
     """Parse regex pattern, handling OR conditions and parentheses."""
