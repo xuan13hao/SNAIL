@@ -12,7 +12,6 @@ It combines rule-based linguistic features, pattern matching, and a fine-tuned X
 
 - Hybrid approach combining:
   - spaCy pattern matching
-  - regex-based dictionary (BMC patterns)
   - windowed linguistic signal extraction (e.g., headwords, acronyms)
 - Classifies words/phrases as `dbsoft` vs `other`
 - Outputs predictions and false positives to CSV
