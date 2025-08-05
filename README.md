@@ -3,7 +3,9 @@
 **SNAIL** (Software NAme Identification from Literature) is a high-performance tool designed to identify software and database mentions (dbsoft) in biomedical literature.  
 It combines rule-based linguistic features, pattern matching, and a fine-tuned XGBoost model to achieve robust classification—even under extreme class imbalance.
 
-> **SNAIL: Software Name Identification from Literature towards Automated Bioinformatic Resources Collection and Categorization**
+> **Citation**:  
+> *SNAIL: Software Name Identification from Literature towards Automated Bioinformatic Resources Collection and Categorization*
+
 
 
 ---
