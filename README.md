@@ -35,5 +35,4 @@ git clone https://github.com/xuan13hao/SNAIL.git
 cd SNAIL
 pip install -e .
 snail-xgb <input_txt_file> <output_csv_file>
-
-
+snail-xgb PCB_articles.txt predictions.csv
