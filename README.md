@@ -29,13 +29,11 @@ It combines rule-based linguistic features, pattern matching, and a fine-tuned X
   - `requests`
   - `joblib`
 - **One-time spaCy model download**:
-  ```bash
-  python -m spacy download en_core_web_sm
-
+```bash
+python -m spacy download en_core_web_sm
 git clone https://github.com/xuan13hao/SNAIL.git
 cd SNAIL
 pip install -e .
-
 snail-xgb <input_txt_file> <output_csv_file>
 
 
