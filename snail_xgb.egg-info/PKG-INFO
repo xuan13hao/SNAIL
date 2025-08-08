@@ -1,3 +1,19 @@
+Metadata-Version: 2.4
+Name: snail_xgb
+Version: 0.1.0
+Summary: XGBoost-based dbsoft detector from HTML/PMC text
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: nltk
+Requires-Dist: spacy
+Requires-Dist: pyenchant
+Requires-Dist: requests
+Requires-Dist: joblib
+
 # 🐌 SNAIL_XGBoost
 
 **SNAIL** (Software NAme Identification from Literature) is a high-performance tool designed to identify software and database mentions (dbsoft) in biomedical literature.  
@@ -16,26 +32,9 @@ It combines rule-based linguistic features, pattern matching, and a fine-tuned X
 ---
 
 ## 🔧 Requirements
-- Python 3.8 or newer
-- pip & setuptools
-- Dependencies (installed automatically):
-  - `beautifulsoup4`
-  - `pandas`
-  - `scikit-learn`
-  - `scipy`
-  - `nltk`
-  - `spacy`
-  - `pyenchant`
-  - `requests`
-  - `joblib`
-- **One-time spaCy model download**:
-  ```bash
-  python -m spacy download en_core_web_sm
+Install all dependencies using:
 
-git clone https://github.com/xuan13hao/SNAIL.git
-cd SNAIL
-pip install -e .
-
-snail-xgb <input_txt_file> <output_csv_file>
-
-
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python SNAIL.py <input_text_file> <output_csv_file>

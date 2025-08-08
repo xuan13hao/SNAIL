@@ -1,0 +1,9 @@
+beautifulsoup4
+pandas
+scikit-learn
+scipy
+nltk
+spacy
+pyenchant
+requests
+joblib
