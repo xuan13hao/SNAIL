@@ -28,7 +28,7 @@ It combines rule-based linguistic features, pattern matching, and a fine-tuned X
   - `pyenchant`
   - `requests`
   - `joblib`
-- **One-time spaCy model download**:
+## 🔧 Install
 ```bash
 python -m spacy download en_core_web_sm
 git clone https://github.com/xuan13hao/SNAIL.git
