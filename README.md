@@ -5,28 +5,20 @@ It combines rule-based linguistic features, pattern matching, and a fine-tuned X
 
 > **Citation**:  
 > *SNAIL: Software Name Identification from Literature towards Automated Bioinformatic Resources Collection and Categorization*
-
-
-
 ---
 
 ## 📦 Features
-
 - Hybrid approach combining:
   - spaCy pattern matching
   - windowed linguistic signal extraction (e.g., headwords, acronyms)
 - Classifies words/phrases as `dbsoft` vs `other`
-- Outputs predictions and false positives to CSV
-- Supports bulk evaluation on raw PMC-style text inputs
-
+- Outputs predictions to CSV
 ---
 
 ## 🔧 Requirements
-
 Install all dependencies using:
 
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
-
 python SNAIL.py <input_text_file> <output_csv_file>
