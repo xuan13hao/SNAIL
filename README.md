@@ -29,6 +29,4 @@ Install all dependencies using:
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
-
-```bash
 python SNAIL.py <input_text_file> <output_csv_file>
